@@ -8,9 +8,10 @@
             "name": "my-test",
             "request": "launch",
             "type": "dart",
-            "toolArgs": [
-                "--define=MAILJET_KEY=AAAAAAAAAAAAAAAAAAAA"
-            ]
+            "env": {
+                "A": "AAAAAAAAA",
+            },
+            "templateFor": ""
         }
     ]
 }
